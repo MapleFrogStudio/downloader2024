@@ -3,7 +3,7 @@ from src import downloader as d
 def tsx():
     print(f'__init__ -> Script ran tsx() function')
     d.main('tsx')
-
+gt 
 def nasdaq_nosector():
     print(f'Script ran nasdaq_nosector() function')
 

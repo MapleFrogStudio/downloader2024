@@ -1,3 +1,4 @@
+import sys
 import json
 import datetime
 import yfinance as yf
@@ -82,7 +83,13 @@ def main(exchange='tsx'):
     d_handler.find_bad_symbols_from_downloaded_data()
     d_handler.save_bad_tickers_to_local_filesystem()
 
+def download_one_symbol(symbol):
+    data_df = yf.download(symbol, period='1d', interval="1m", ignore_tz = True, prepost=False)
+    data_df.to_csv(f'{symbol}.csv', index=True)
 
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) > 1:
+        download_one_symbol(sys.argv[1])
+    else:
+        main()
     
