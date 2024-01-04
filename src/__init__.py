@@ -1,9 +1,9 @@
 from src import downloader as d
 
-def tsx():
+def tsx1():
     print(f'__init__ -> Script ran tsx() function')
-    d.main('tsx')
-gt 
+    d.main('tsx1')
+
 def nasdaq_nosector():
     print(f'Script ran nasdaq_nosector() function')
 

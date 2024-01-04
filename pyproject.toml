@@ -23,7 +23,8 @@ dependencies = [
 
 [project.scripts]
 # sp500     = "hobbytrader.download:sp500"
-tsx       = "src:tsx"
+tsx1       = "src:tsx1"
+tsx2       = "src:tsx2"
 # nasdaq_ns = "src.launch:nasdaq_nosector"
 # nasdaq_cd = "src.launch:nasdaq_cd"
 # nasdaq_fs = "src.launch:nasdaq_fs"
