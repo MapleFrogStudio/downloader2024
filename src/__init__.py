@@ -1,42 +1,62 @@
 from src import downloader as d
 
 def tsx1():
-    print(f'__init__ -> Script ran tsx() function')
+    print(f'__init__ -> Script ran tsx1() function')
     d.main('tsx1')
 
-def nasdaq_nosector():
-    print(f'Script ran nasdaq_nosector() function')
+def tsx2():
+    print(f'__init__ -> Script ran tsx2() function')
+    d.main('tsx2')
 
-def nasdaq_cd():
-    print(f'Script ran nasdaq_cd() function')
+def tsxv1():
+    print(f'__init__ -> Script ran tsxv1() function')
+    d.main('tsxv1')
 
-def nasdaq_fs():
-    print(f'Script ran nasdaq_fs() function')
+def tsxv2():
+    print(f'__init__ -> Script ran tsxv2() function')
+    d.main('tsxv2')
 
-def nasdaq_healthcare():
-    print(f'Script ran nasdaq_healthcare() function')
+def tsxv3():
+    print(f'__init__ -> Script ran tsxv3() function')
+    d.main('tsxv3')
 
-def nasdaq_industrials():
-    print(f'Script ran nasdaq_industrials() function')
+def tsxv4():
+    print(f'__init__ -> Script ran tsxv4() function')
+    d.main('tsxv4')
 
-def nasdaq_technology():
-    print(f'Script ran nasdaq_technology() function')
+def nasdaq1():
+    print(f'__init__ -> Script ran nasdaq1() function')
+    d.main('nasdaq1')
 
-def nasdaq_cc():
-    print(f'Script ran nasdaq_nasdaq() function')
+def nasdaq2():
+    print(f'__init__ -> Script ran nasdaq2() function')
+    d.main('nasdaq2')
 
-def nasdaq_bm():
-    print(f'Script ran nasdaq_bm() function')
+def nasdaq3():
+    print(f'__init__ -> Script ran nasdaq3() function')
+    d.main('nasdaq3')
 
-def nasdaq_utilities():
-    print(f'Script ran nasdaq_utilities() function')
+def nasdaq4():
+    print(f'__init__ -> Script ran nasdaq4() function')
+    d.main('nasdaq4')
 
-def nasdaq_cs():
-    print(f'Script ran nasdaq_cs() function')
+def nasdaq5():
+    print(f'__init__ -> Script ran nasdaq5() function')
+    d.main('nasdaq5')
 
-def nasdaq_re():
-    print(f'Script ran nasdaq_re() function')
+def nyse1():
+    print(f'__init__ -> Script ran nyse1() function')
+    d.main('nyse1')
 
-def nasdaq_energy():
-    print(f'Script ran nasdaq_energy() function')    
-    
+def nyse2():
+    print(f'__init__ -> Script ran nyse2() function')
+    d.main('nyse2')
+
+def nyse3():
+    print(f'__init__ -> Script ran nyse3() function')
+    d.main('nyse3')
+
+def amex1():
+    print(f'__init__ -> Script ran amex1() function')
+    d.main('amex1')
+
