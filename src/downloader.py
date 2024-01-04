@@ -35,7 +35,7 @@ class DownloadManager:
     def minute_prices_to_csv(self):
         date_obj = datetime.datetime.now()
         self.prices_df.to_csv(f'DATA/{self.group}-{date_obj.date()}.csv', index=True)
-    
+
 
 def main(group='tsx1'):
     print(f'**************** {group} ***********************')
@@ -53,4 +53,5 @@ if __name__ == '__main__':
         download_one_symbol(sys.argv[1])
     else:
         main()
+        
     
