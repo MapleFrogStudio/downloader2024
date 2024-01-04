@@ -32,9 +32,11 @@ def nasdaq2():
     print(f'__init__ -> Script ran nasdaq2() function')
     d.main('nasdaq2')
 
+
 def nasdaq3():
     print(f'__init__ -> Script ran nasdaq3() function')
     d.main('nasdaq3')
+
 
 def nasdaq4():
     print(f'__init__ -> Script ran nasdaq4() function')
