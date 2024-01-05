@@ -1,3 +1,4 @@
+import time
 import sys
 import json
 import datetime
@@ -52,6 +53,5 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         download_one_symbol(sys.argv[1])
     else:
-        main()
-        
+        main()   
     
