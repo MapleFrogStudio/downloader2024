@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src"]
+namespaces = false
+
+[project]
+name = "downloader2024"
+version = "0.1.0"
+authors = [
+    {name = "Maple Frog Studio", email = "devops@maplefrogstudio.com"},
+]
+description = "Yahoo Minute price data downloader for 2024"
+requires-python = ">=3.10"
+dependencies = [
+    "yfinance",
+    "python-dateutil",
+    "pandas"
+]
+
+[project.scripts]
+# sp500     = "hobbytrader.download:sp500"
+tsx1       = "src:tsx1"
+tsx2       = "src:tsx2"
+tsxv1      = "src:tsxv1"
+tsxv2      = "src:tsxv2"
+tsxv3      = "src:tsxv3"
+tsxv4      = "src:tsxv4"
+nasdaq1    = "src:nasdaq1"
+nasdaq2    = "src:nasdaq2"
+nasdaq3    = "src:nasdaq3"
+nasdaq4    = "src:nasdaq4"
+nasdaq5    = "src:nasdaq5"
+nyse1      = "src:nyse1"
+nyse2      = "src:nyse2"
+nyse3      = "src:nyse3"
+amex1      = "src:amex1"
